@@ -1,0 +1,13 @@
+header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46,58,70);
+    border-bottom: 2px solid lightgray;
+    height: 70px;
+    width: 100%;
+    .logo {
+        height: 60px;
+    }
+}

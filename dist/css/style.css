@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-basic {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #1e2d3b;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e3a46;
+  border-bottom: 2px solid lightgray;
+  height: 70px;
+  width: 100%;
+}
+
+header .logo {
+  height: 60px;
+}
+
+.container-card {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  width: 85%;
+  border-radius: 10px;
+  padding: 100px;
+  flex-wrap: wrap;
+}
+
+.container-card .card {
+  height: 300px;
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e3a46;
+  border: 1 px solid lightgray;
+  border-radius: 10pz;
+  margin: 20px;
+}
+
+.container-card .card .card h1 {
+  color: lightgray;
+}
+
+.container-card .card .card span {
+  color: darkgray;
+}
+
+.container-card .card .card img {
+  height: 180px;
+}
+
