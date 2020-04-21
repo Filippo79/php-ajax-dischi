@@ -38,14 +38,14 @@
 1
             </main>
         </div>
-        <!-- <script id="template-card" type="text/x-handlebars-template">
+        <script id="template-card" type="text/x-handlebars-template">
             <div class="card" >
                 <img src="{{immagineAlbum}}" alt="{{nomeAlbum}} Cover-Album">
                 <h3>{{nomeAlbum}}</h3>
                 <span>{{autore}}</span>
                 <span>{{anno}}</span>
             </div>
-        </script> -->
+        </script>
         <script src="dist/js/main.js" charset="utf-8"></script>
     </body>
 </html>
