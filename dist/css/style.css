@@ -56,14 +56,16 @@ header .logo {
   border: 1px solid lightgray;
   border-radius: 10px;
   margin: 20px;
+  cursor: pointer;
 }
 
-.container-card .card h1 {
-  color: lightgray;
+.container-card .card h3 {
+  color: #FF4500;
+  text-align: center;
 }
 
 .container-card .card span {
-  color: darkgray;
+  color: #FF4500;
 }
 
 .container-card .card img {
