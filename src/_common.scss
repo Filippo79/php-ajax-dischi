@@ -1,8 +1,13 @@
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: $primary_font;
 }
+
+clearfix::after {
+    @include clearfix;
+}
+
 .container-basic {
     min-height: 100vh;
     width: 100vw;
-    background-color: #1e2d3b;
+    background-color: $color-basic;
 }

@@ -20,20 +20,18 @@
 
             </header>
             <main>
-                <div class="container-card"></div>     
+                <div class="container-card clearfix"></div>
+1
             </main>
         </div>
-        <script id="template-card" type="text/x-handlebars-template">
-            <div class="card">
+        <!-- <script id="template-card" type="text/x-handlebars-template">
+            <div class="card" >
                 <img src="{{immagineAlbum}}" alt="{{nomeAlbum}} Cover-Album">
                 <h3>{{nomeAlbum}}</h3>
                 <span>{{autore}}</span>
                 <span>{{anno}}</span>
             </div>
-        </script>
-
-
-        <!-- <canvas id="myChart"></canvas> -->
+        </script> -->
         <script src="js/main.js" charset="utf-8"></script>
     </body>
 </html>
