@@ -17,7 +17,7 @@ clearfix::after {
 .container-basic {
   min-height: 100vh;
   width: 100vw;
-  background-color: #1e2d3b;
+  background-color: #1A1414;
 }
 
 header {
@@ -53,20 +53,22 @@ header .logo {
   align-items: center;
   justify-content: space-around;
   background-color: #2e3a46;
-  border: 1 px solid lightgray;
-  border-radius: 10pz;
+  border: 1px solid lightgray;
+  border-radius: 10px;
   margin: 20px;
 }
 
-.container-card .card .card h1 {
+.container-card .card h1 {
   color: lightgray;
 }
 
-.container-card .card .card span {
+.container-card .card span {
   color: darkgray;
 }
 
-.container-card .card .card img {
+.container-card .card img {
   height: 180px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
 

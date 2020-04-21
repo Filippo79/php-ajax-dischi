@@ -17,10 +17,24 @@
         <div class="container-basic">
             <header>
                 <img class="logo"src="dist/img/logo.png" alt="">
-
             </header>
             <main>
-                <div class="container-card clearfix"></div>
+                <div class="container-card">
+                    <?php
+                        //include 'data.php';
+                     ?>
+                     <?php /*foreach ($albums as $key => $album) {?>
+                        <div class="card">
+                             <img src=<?php echo $album['poster']?> alt="">
+                             <h3><?php echo $album['title']?></h3>
+                             <span><?php echo $album['author']?></span>
+                             <span><?php echo $album['year']?></span>
+                         </div>
+                    <?php }*/?>
+
+
+                </div>
+
 1
             </main>
         </div>
@@ -32,6 +46,6 @@
                 <span>{{anno}}</span>
             </div>
         </script> -->
-        <script src="js/main.js" charset="utf-8"></script>
+        <script src="dist/js/main.js" charset="utf-8"></script>
     </body>
 </html>

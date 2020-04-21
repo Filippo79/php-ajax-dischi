@@ -15,17 +15,19 @@
         align-items: center;
         justify-content: space-around;
         background-color: rgb(46,58,70);
-        border: 1 px solid $border_color;
-        border-radius: 10pz;
+        border: 1px solid $border_color;
+        border-radius: 10px;
         margin: 20px;
-        .card h1 {
+        h1 {
             color: lightgray;
         }
-        .card span {
+        span {
             color: darkgray;
         }
-        .card img {
+        img {
             height: 180px;
+            border: 1px solid $border_color;
+            border-radius: 10px;
         }
     }
 }
